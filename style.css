@@ -361,8 +361,16 @@ h6 {
 /* ------------- history comments right ----------------- */
 
 #hisright {
-	margin-left: 573px;
-	margin-top: -1025px;
+	margin-left: 571px;
+	margin-top: -1042px;
+}
+
+#hisright li:nth-child(2) {
+	margin-top: -37px;
+}
+
+#hisright li:last-child {
+	margin-top: -37px;
 }
 
 #hisblack {
@@ -714,7 +722,7 @@ sup {
 	font-size: 11px;
 	line-height: 20px;
 	padding-top: 25px;
-	color: #cecece;
+	color: #949494;
 	font-family: Times New Roman;
 }
 
@@ -811,4 +819,90 @@ sup {
 .maps img {
 	position: absolute;
 	margin: 210px 750px 0px;
+}
+
+/* --------------------------- footer -------------------------- */
+
+footer {
+	text-align: left;
+	color: #cecece;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-image: url("img/fooback.png");
+}
+
+footer img {
+	margin-bottom: 30px;
+}
+
+#foofirst {
+	width: 340px;
+	padding-right: 30px;
+	padding-top: 0px; 
+	vertical-align: top;
+}
+
+#foofirst p {
+	font-size: 12px;
+	font-family: times;
+	color: #949494;
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+
+#foofirst h3 {
+	font-size: 15px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+#foosecond {
+	vertical-align: top;
+	padding-top: 15px;
+}
+
+input {
+	width: 353px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background: none;
+	border: 1px solid #3e3d3d;
+	font-style: italic;
+	font-family: times;
+	color: #949494;
+	margin-bottom: 20px;
+}
+
+.in1 {
+	float: left;
+}
+
+.in2 {
+	float: right;
+}
+
+textarea {
+	width: 790px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	background: none;
+	border: 1px solid #3e3d3d;
+	font-style: italic;
+	font-family: times;
+	color: #949494;
+	margin-bottom: 20px;
+	resize: none;
+}
+
+.subbtn {
+	width: 150px;
+	background-color: #3e3d3d;
+	color: #949494;
+	font-family: myriad pro;
+	padding: 0px;
+	text-align: center;
+	height: 38px;
+	font-style: normal;
 }
