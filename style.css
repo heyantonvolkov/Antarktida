@@ -598,7 +598,7 @@ sup {
 /* ---------------------- purchase ---------------------- */
 
 .purchase {
-	background-color: #3e3d3d;
+	background-color: #2d2d2f;
 	padding-bottom: 35px;
 	padding-top: 25px;
 	color: #cecece;
@@ -645,24 +645,72 @@ sup {
 }
 
 .blog table {
-	width: 100%;
-	border-collapse: collapse;
-	border: 0px;
 	margin-left: -1px;
-}
-
-.blog table img {
-	width: 359px;
+	border-collapse: collapse;
+	text-align: left;
+	color: #e3e3e3;
 }
 
 .blog td {
-	background-color: #e3e3e3;
+	padding-left: 32px;
+	background-color: #424244;
+	width: 361.5px;
+	height: 359px;
+	padding-right: 50px;
+}
+
+.toprow td:first-child {
+	background-image: url("img/blog1.png");
+}
+
+.toprow td:nth-child(3) {
+	background-image: url("img/blog3.png");
+}
+
+.botrow td:nth-child(2) {
+	background-image: url("img/blog2.png");
+}
+
+.botrow td:last-child {
+	background-image: url("img/blog4.png");
 }
 
 .toprow td:nth-child(2) {
-	background-color: #3e3d3d;
+	background-color: #2d2d2f;
 }
 
-.botrow td:first-child {
-	background-color: #3e3d3d;
+.botrow td:nth-child(3) {
+	background-color: #2d2d2f;
+}
+
+.blogdate {
+	font-size: 11px;
+	font-style: italic;
+	margin-top: 50px;
+}
+
+.blogline {
+	width: 170px;
+	height: 1px;
+	background-color: #e3e3e3;
+}
+
+.blog h6 {
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: normal;
+	margin-top: 16px;
+}
+
+.blogtxt {
+	font-size: 11px;
+	line-height: 20px;
+	padding-top: 25px;
+	color: #cecece;
+	font-family: Times New Roman;
+}
+
+.blog table img {
+	position: absolute;
+	margin-top: 20px;
 }
