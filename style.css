@@ -476,24 +476,17 @@ h6 {
 	margin-top: -75px;
 }
 
-.portfolio img {
-	margin-top: 0px;
-}
-
-.portfolio li {
-	display: inline;
-}
-
-.portfolio ul {
-	margin-left: -30px;
-	padding-bottom: 30px;
-}
-
-.portfolio button {
+.portfolio_btn {
 	width: auto;
 	border-color: #3e3d3d;
 	color: #3e3d3d;
 	padding: 0px 30px 0px;
+	float: left;
+	margin-left: 5px;
+}
+
+.portfolio_btn_first {
+	margin-left: 365px;
 }
 
 .portimg {
@@ -503,6 +496,7 @@ h6 {
 
 .portimg img {
 	width: 373px;
+	margin-top: 50px;
 }
 
 .portfolio table {
@@ -522,7 +516,7 @@ h6 {
 
 .porbottom {
 	position: absolute;
-	margin-top: -210px;
+	margin-top: -260px;
 }
 /* --------------------------------------------------------------------------------------------- */
 /* ----------------------------------------- prices -------------------------------------------- */
