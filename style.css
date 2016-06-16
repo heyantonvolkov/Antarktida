@@ -8,7 +8,7 @@ body {
 
 .container {
 	width: 1200px;
-	padding: 40px 0px 40px;
+	padding: 60px 0px 40px;
 	margin: 0px auto 0px;
 }
 
@@ -41,6 +41,7 @@ a {
 	text-decoration: none;
 	color: #cecece;
 }
+
 /* --------------------------------------------------------------------------------------------- */
 /* ----------------------------------------- header -------------------------------------------- */
 /* --------------------------------------------------------------------------------------------- */
@@ -52,7 +53,7 @@ header {
 }
 
 .header_container {
-	padding: 20px 0px 20px;
+	padding: 40px 0px 20px;
 }
 
 .header_logo {
@@ -127,7 +128,7 @@ header {
 .about {
 	background-color: #e3e3e3;
 	padding-top: 75px;
-	padding-bottom: 80px;
+	padding-bottom: 100px;
 }
 
 .about_pic {
@@ -137,8 +138,9 @@ header {
 
 .about_block {
 	margin-top: -6px;
+	margin-bottom: 30px;
 	background-color: white;
-	padding: 50px 20px 20px;
+	padding: 50px 20px 50px;
 }
 
 .about_btn {
@@ -154,80 +156,68 @@ header {
 
 /* ------------ about icons ---------------- */
 
-.about table {
-	margin-top: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	border-collapse: collapse;
-	color: #3e3d3d;
-}
 
-.about td {
+.about_icon_block {
+	float: left;
 	width: 270px;
-	height: 56px;
-	text-align: center;
+	height: 40px;
+	border-right: 1px solid #3e3d3d;
+	vertical-align: middle;
 }
 
-.iconstxt td {
+.about_icon_text td {
 	font-size: 16px;
 	font-weight: bold;
 }
 
-.iconsnum td {
-	font-size: 45px; 
+.about_icon_num {
+	font-size: 45px;
+	margin-top: 20px;
 }
 
-#wall {
-	border-left: 1px solid #3e3d3d;
-	border-right: 1px solid #3e3d3d;
+.about_noline {
+	border-right: 0px;
 }
 
+.about_block_num {
+	height: 70px;
+}
+
+.about_block_first {
+	margin-left: 60px;
+}
 
 /* ------------ services ---------------- */
 
 .services {
 	background-image: url("img/service_back.png");
 	color: #e3e3e3;
-	padding-top: 70px;
-	padding-bottom: 65px;
-	text-align: center;
+	padding-bottom: 420px;
 }
 
-#underline {
-	margin-top: 20px;
-	margin-bottom: 30px;
+.service_block {
+	padding: 25px 30px 45px;
+	width: 210px;
+	float: left;
+	border: 1px solid #e3e3e3;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
-.services td {
-	width: 300px;
-	margin-left: 110px;
-	padding: 10px 50px 10px;
-	font-size: 15px;
-	line-height: 20px;
+.service_block:last-child {
+	margin-right: 0px;
 }
 
-.servicesborder td {
+.service_icon {
 	position: absolute;
-	margin-top: -373px;
-	margin-left: -60px;
+	padding: 10px;
+	margin-top: -45px;
+	background-color: grey;
+	margin-left: -22px;
 }
 
-.servicesborder td:nth-child(2) {
-	position: absolute;
-	margin-top: -373px;
-	margin-left: 235px;
-}
-
-.servicesborder td:nth-child(3) {
-	position: absolute;
-	margin-top: -373px;
-	margin-left: 525px;
-}
-
-.servicesborder td:nth-child(4) {
-	position: absolute;
-	margin-top: -373px;
-	margin-left: 819px;
+.service_block_h {
+	margin-left: 0px;
 }
 
 /* ------------ history ---------------- */
