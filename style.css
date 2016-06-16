@@ -523,24 +523,30 @@ h6 {
 /* --------------------------------------------------------------------------------------------- */
 .prices {
 	background-color: #e3e3e3;
+	padding-top: 20px;
 	padding-bottom: 75px;
-	padding-top: 75px;
-	text-align: center;
 	color: #3e3d3d;
+	padding-bottom: 590px;
 }
 
-.priceblock {
+.price_block {
 	width: 370px;
 	height: 550px;
 	background-color: white;
+	float: left;
+	margin-left: 30px;
 }
 
-.prices button {
+.price_block_first {
+	margin-left: 15px;
+}
+
+.price_btn {
 	border-color: #3e3d3d;
 	color: #3e3d3d;
 }
 
-.pricesline {
+.price_line {
 	margin-top: 50px;
 	width: 230px;
 	margin-left: 70px;
@@ -548,14 +554,17 @@ h6 {
 	height: 2px;
 }
 
-.prices h6 {
+.price_h6 {
 	padding-top: 50px;
 	font-size: 15px;
 	margin-left: 0px;
-
 }
 
-.prices .circle {
+.price_icon {
+	margin-top: 6px;
+}
+
+.price_circle {
 	width: 40px;
 	height: 40px;
 	border-radius: 40px;
@@ -565,81 +574,56 @@ h6 {
 	margin-left: 165px;
 }
 
-.prices .circle img {
-	margin-top: 8px;
-}
 
-.prices h2 {
+.price_h2 {
 	font-size: 60px;
 	margin-bottom: 20px;
 }
 
-sup {
+.price_sup {
 	font-size: 30px;
 }
 
-.prices li {
-	display: inline-block;
-}
-
-.prices li:nth-child(2) {
-	margin-left: 30px;
-	margin-right: 30px;
-}
-
-.prices ul {
-	margin-left: -70px;
-}
-
-.prices p {
+.price_text {
 	font-style: italic;
 	font-size: 14px;
 }
 
-.prices button {
-	margin-top: 40px;
-}
-
-#rupor {
-	margin-left: -3px;
-	margin-top: 10px;
-}
-
-.prices #topp {
-	font-style: normal;
-}
 /* --------------------------------------------------------------------------------------------- */
 /* ----------------------------------------- purchase ------------------------------------------ */
 /* --------------------------------------------------------------------------------------------- */
 .purchase {
 	background-color: #2d2d2f;
-	padding-bottom: 35px;
-	padding-top: 25px;
+	padding-bottom: 30px;
+	padding-top: 30px;
 	color: #cecece;
+	text-align: left;
 }
 
-.purchase img {
+.purchase_compaspic{
 	position: absolute;
 	margin-left: 50px;
 	margin-top: -25px;
 }
 
-.purchase button {
+.purchase_btn {
 	position: absolute;
 	margin-top: -65px;
-	margin-left: 870px;
+	margin-left: 925px;
 }
 
-.purchase h6 {
+.purchase_h {
 	color: white;
 	margin-left: 300px;
 	font-size: 14px;
+	margin-top: 0px
 }
 
-.purchase p {
+.purchase_text {
 	font-size: 11px;
 	color: #cecece;
 	margin-left: 300px;
+	margin-top: 0px;
 	font-style: italic;
 	width: 500px;
 }
@@ -648,74 +632,59 @@ sup {
 
 .blog {
 	background-color: #e3e3e3;
-	padding-top: 75px;
 	text-align: center;
 	color: #3e3d3d;
+	padding-bottom: 650px;
 }
 
-.blog p {
-	margin-top: -10px;
-}
-
-.blog table {
-	margin-left: -1px;
-	border-collapse: collapse;
-	text-align: left;
-	color: #e3e3e3;
-}
-
-.blog td {
-	padding-left: 32px;
+.blog_block {
+	padding: 0px;
 	background-color: #424244;
-	width: 361.5px;
+	width: 320px;
 	height: 359px;
-	padding-right: 50px;
+	color: #e3e3e3;
+	text-align: left;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.toprow td:first-child {
+.blog1 {
 	background-image: url("img/blog1.png");
 }
 
-.toprow td:nth-child(3) {
-	background-image: url("img/blog3.png");
-}
-
-.botrow td:nth-child(2) {
+.blog2 {
 	background-image: url("img/blog2.png");
 }
 
-.botrow td:last-child {
+.blog3 {
+	background-image: url("img/blog3.png");
+}
+
+.blog4 {
 	background-image: url("img/blog4.png");
 }
 
-.toprow td:nth-child(2) {
-	background-color: #2d2d2f;
-}
-
-.botrow td:nth-child(3) {
-	background-color: #2d2d2f;
-}
-
-.blogdate {
+.blog_date {
 	font-size: 11px;
 	font-style: italic;
 	margin-top: 50px;
 }
 
-.blogline {
+.blog_line {
 	width: 170px;
 	height: 1px;
 	background-color: #e3e3e3;
 }
 
-.blog h6 {
+.blog_h6 {
 	font-size: 14px;
 	margin-left: 10px;
 	font-weight: normal;
 	margin-top: 16px;
 }
 
-.blogtxt {
+.blog_text {
 	font-size: 11px;
 	line-height: 20px;
 	padding-top: 25px;
@@ -723,7 +692,7 @@ sup {
 	font-family: Times New Roman;
 }
 
-.blog table img {
+.blog_img {
 	position: absolute;
 	margin-top: 20px;
 }
@@ -732,20 +701,19 @@ sup {
 
 .clients {
 	background-color: white;
-	padding-bottom: 55px;
+	padding-bottom: 155px;
 	padding-top: 75px;
 	text-align: center;
 	color: #3e3d3d;
 }
 
-.clients ul {
-	margin-left: 85px;
-	margin-right: 85px;
+.client_img {
+	float: left;
+	margin-left: 90px;
 }
 
-.clients li {
-	display: inline;
-	margin-left: 85px;
+.client_first {
+	margin-left: 80px;
 }
 
 /* --------------------------- testimonials -------------------------- */
@@ -816,7 +784,7 @@ sup {
 
 .maps img {
 	position: absolute;
-	margin: 210px 750px 0px;
+	margin: 210px 50px 0px;
 }
 
 /* --------------------------- footer -------------------------- */
