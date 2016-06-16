@@ -2,11 +2,13 @@ body {
 	padding: 0px;
 	margin: 0px;
 	font-family: Myriad pro;
+	text-align: center; 
+	color: #3e3d3d;
 }
 
 .container {
-	width: 1170px;
-	padding: 0px;
+	width: 1200px;
+	padding: 40px 0px 40px;
 	margin: 0px auto 0px;
 }
 
@@ -20,53 +22,73 @@ button {
 	font-weight: bold;
 }
 
-.topp {
-	font-size: 14px;
-	padding: 23px 80px 47px;
+.block_title {
+	margin-top: 0px;
+	margin-bottom: 15px;
 }
 
-/* ------------ header ---------------- */
+.block_underline {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.block_paragraph {
+	font-size: 14px;
+	padding: 30px 30px 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #cecece;
+}
+/* --------------------------------------------------------------------------------------------- */
+/* ----------------------------------------- header -------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
 
 header {
 	background: #ffffff;
-	vertical-align: middle;
 	font-size: 12px;
-	color: #3e3d3d;
-	height: 36px;
+	padding: 0px;
 }
 
-.logo {
+.header_container {
+	padding: 20px 0px 20px;
+}
+
+.header_logo {
 	position: absolute;
 	margin-top: -10px;
-	margin-left: 35px;
+	margin-left: -590px
 }
 
-header ul {
-	margin-top: 24px;
+.menu {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: -65px;
 }
 
-header li {
+.menu_item {
+	list-style-type: none;
 	display: inline;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 
-header li:first-child {
-	margin-left: 300px;
+.menu_item:first-child {
+	margin-left: 0px;
 }
 
-/* ------------ slider ---------------- */
-
+/* --------------------------------------------------------------------------------------------- */
+/* ----------------------------------------- slider -------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
 
 .slider {
 	background-image: url("img/slider_back.png");
-	padding-top: 198px;
-	padding-bottom: 204px;
+	padding-top: 130px;
+	padding-bottom: 130px;
 	color: white;
 }
 
-h5 {
-	text-align: center;
-	margin-bottom: 30px;
+.slider_h {
 	color: #cecece;
 }
 
@@ -75,34 +97,32 @@ h5 {
 	margin-left: 320px;
 }
 
-.slider li {
-	display: inline;
-	list-style-type: none;
+.slider_line_top {
+	margin-bottom: 23px;
 }
 
-.slider li:first-child {
-	float: left; 
+.slider_line_bottom {
+	margin: 20px 0px 40px;
 }
 
-.slider li:nth-child(2) {
-
-	margin-left: 265px
+.slider_title {
+	margin: 0px;
 }
 
-.slider li:last-child {
-	float: right;
+.slider_leftarrow {
+	position: absolute;
+	margin-top: -122px;
+	margin-left: -510px;
 }
 
-.slider button {
-	margin-top: 50px;
-	margin-left: 515px;
+.slider_rightarrow {
+	position: absolute;
+	margin-top: -122px;
+	margin-left: 620px;
 }
-
-.slider ul {
-	padding-top: 31px;
-}
-
-/* ------------ about ---------------- */
+/* --------------------------------------------------------------------------------------------- */
+/* ----------------------------------------- about -------------------------------------------- */
+/* --------------------------------------------------------------------------------------------- */
 
 .about {
 	background-color: #e3e3e3;
@@ -110,44 +130,26 @@ h5 {
 	padding-bottom: 80px;
 }
 
-.aboutus img {
-	margin-left: 44%;
+.about_pic {
+	margin-bottom: 0px;
+	width: 1200px;
 }
 
-#line {
-	margin-left: 42%;
-}
-
-.aboutus {
-	margin-top: -5px;
-	padding-top: 60px;
+.about_block {
+	margin-top: -6px;
 	background-color: white;
-	padding-bottom: 50px;
+	padding: 50px 20px 20px;
 }
 
-.aboutus li {
-	display: inline;
-}
-
-.aboutus p {
-	margin: 43px 65px 0px;
-	color: #3e3d3d;
-	font-size: 14px;
-}
-
-.aboutus ul {
-	margin-top: 50px;
-	margin-left: 34%;
-}
-
-.aboutus button {
+.about_btn {
 	border-color: #3e3d3d;
 	color: #3e3d3d;
 }
 
-#btn_black {
+.btn_black {
 	background-color: #3e3d3d;
 	color: #cecece;
+	border-color: #3e3d3d;
 }
 
 /* ------------ about icons ---------------- */
@@ -742,7 +744,8 @@ sup {
 }
 
 .clients ul {
-	margin-left: -130px;
+	margin-left: 85px;
+	margin-right: 85px;
 }
 
 .clients li {
