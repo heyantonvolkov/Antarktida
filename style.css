@@ -128,7 +128,7 @@ header {
 .about {
 	background-color: #e3e3e3;
 	padding-top: 75px;
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 }
 
 .about_pic {
@@ -141,6 +141,7 @@ header {
 	margin-bottom: 30px;
 	background-color: white;
 	padding: 50px 20px 50px;
+
 }
 
 .about_btn {
@@ -158,11 +159,13 @@ header {
 /* --------------------------------------------------------------------------------------------- */
 
 .about_icon_block {
-	float: left;
 	width: 270px;
-	height: 40px;
+	height: 160px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	border-right: 1px solid #3e3d3d;
 	vertical-align: middle;
+	display: inline-block;
 }
 
 .about_icon_text td {
@@ -172,7 +175,7 @@ header {
 
 .about_icon_num {
 	font-size: 45px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .about_noline {
@@ -180,12 +183,9 @@ header {
 }
 
 .about_block_num {
-	height: 70px;
+	margin-left: 0px;
 }
 
-.about_block_first {
-	margin-left: 60px;
-}
 /* --------------------------------------------------------------------------------------------- */
 /* ----------------------------------------- services ------------------------------------------ */
 /* --------------------------------------------------------------------------------------------- */
@@ -203,6 +203,7 @@ header {
 	border: 1px solid #e3e3e3;
 	margin-left: 15px;
 	margin-right: 15px;
+	border-top: 0px;
 }
 
 .service_block:last-child {
@@ -213,12 +214,27 @@ header {
 	position: absolute;
 	padding: 10px;
 	margin-top: -45px;
-	background-color: grey;
 	margin-left: -22px;
 }
 
 .service_block_h {
 	margin-left: 0px;
+}
+
+.service_topborder {
+	width: 90px;
+	height: 1px;
+	background-color: #e3e3e3;
+	position: absolute;
+	margin-top: -25px;
+}
+
+.service_topborderleft {
+	margin-left: -30px;
+}
+
+.service_topborderright {
+	margin-left: 150px;
 }
 /* --------------------------------------------------------------------------------------------- */
 /* ----------------------------------------- history ------------------------------------------- */
@@ -226,14 +242,11 @@ header {
 
 .history {
 	background-color: #e3e3e3;
-	padding-bottom: 75px;
-	padding-top: 75px;
-	text-align: center;
-	color: #3e3d3d;
+	padding-bottom: 20px;
+	font-size: 14px;
 }
 
-.history p {
-	font-size: 14px;
+.history_text {
 	padding: 23px 80px 47px;
 }
 
@@ -259,7 +272,7 @@ header {
 
 .dots {
 	position: absolute;
-	margin: -1020px 538px 0px;
+	margin: -1020px 553px 0px;
 }
 
 .dots li {
@@ -283,9 +296,10 @@ header {
 	margin-top: 430px;
 }
 
-#fourteen {
+.history_circle_2014 {
 	position: absolute;
-	margin: -380px 558px 0px;
+	margin-top: -380px;
+	margin-left: 573px;
 	background-color: #e3e3e3;
 }
 
@@ -307,108 +321,94 @@ header {
 /* ------------- history comments left ----------------- */
 
 
-.hisleft li {
+.history_2015 {
+	position: absolute;
+	width: 1200px;
+	margin-left: -40px;
+	margin-top: -1090px;
+}
+
+.history_2014 {
+	position: absolute;
+	width: 1200px;
+	margin-left: -40px;
+	margin-top: -370px;
+}
+
+.history_block {
+	width: 555px;
+	height: 212px;
+	text-align: left;
+	padding: 30px 10px 30px 30px ;
+	border: 2px solid #3e3d3d;
 	list-style-type: none;
-	margin-bottom: 80px;
+	margin: 30px 15px 0px;
+	box-sizing: border-box;
 }
 
-.hisleft li:nth-child(2) {
-	margin-bottom: 319px;
+.history_block_date {
+	margin: 0px;
+	padding: 0px 0px 20px;
 }
 
-h6 {
-	margin-left: 24px;
-	margin-bottom: 15px;
+.history_block_text {
+	margin: 0px 0px 20px;
+	padding: 0px;
+	width: 420px;
+}
+
+.history_block_title {
+	margin: 0px;
+	padding: 0px;
 	font-size: 13px;
 	font-weight: bolder;
 }
 
-.hiscom {
-	width: 570px;
-	text-align: left;
-	padding-bottom: 0px;
+.history_block_left {
+	float: left;
 }
 
-.hisdate {
-	margin-top: -30px;
-	margin-left: -55px;
-	margin-bottom: 0px;
+.history_block_right {
+	float: right;
+	padding-left: 100px;
+	margin-top: 68px;
+
 }
 
-.histxt {
-	margin-top: -50px;
-	margin-left: -55px;
-	margin-bottom: -20px;
+.history_block_black {
+	color: #e3e3e3;
+	background-color: #3e3d3d;
+	height: 298px;
+	margin-top: 30px;
 }
 
-.hiscom img {
-	position: absolute;
-	margin-top: -191px;
-}
-
-.hisleft {
-	position: absolute;
-	margin-left: -50px;
-	margin-top: -1060px;
-}
-
-/* ------------- history comments right ----------------- */
-
-#hisright {
-	margin-left: 571px;
-	margin-top: -1042px;
-}
-
-#hisright li:nth-child(2) {
-	margin-top: -37px;
-}
-
-#hisright li:last-child {
-	margin-top: -37px;
-}
-
-#hisblack {
-	color: white;
-}
-
-#hisright h6 {
-	margin-left: 70px;
-}
-
-#hisright .hisdate {
-	margin-left: -9px;
-}
-
-#hisright .histxt {
-	margin-left: -9px;
-}
 /* --------------------------------------------------------------------------------------------- */
 /* ----------------------------------------- our team ------------------------------------------ */
 /* --------------------------------------------------------------------------------------------- */
 
 .team {
 	background-image: url("img/teamback.png"); ;
-	padding-bottom: 445px;
+	padding-bottom: 90px;
 	color: #3e3d3d;
 }
 
 .team_pic {
-	margin-left: 30px;
-	float: left;
-}
-
-.team_pic_first {
-	margin-left: 166px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .team_block {
+	display: inline-block;
+}
+
+.team_popupblock {
 	background-color: white;
 	width: 210px;
 	padding: 200px 20px 40px;
 	text-align: left;
 	position: absolute;
-	margin-top: 9px;
-	margin-left: 176px;
+	margin-top: -335px;
+	margin-left: 25px;
 	display: none;
 }
 
@@ -442,27 +442,15 @@ h6 {
 	border-right: 0px;
 }
 
-.team_block_second {
-	margin-left: 477px;
-}
-
-.team_block_third {
-	margin-left: 778px;
-}
-
-.team_block_first {
-	display: none;
-}
-
-.team_pic_first:hover .team_block_first {
+.team_first:hover .team_popup_first {
 	display: block;
 }
 
-.team_pic_second:hover .team_block_second {
+.team_second:hover .team_popup_second {
 	display: block;
 }
 
-.team_pic_third:hover .team_block_third {
+.team_third:hover .team_popup_third {
 	display: block;
 }
 /* --------------------------------------------------------------------------------------------- */
@@ -721,57 +709,46 @@ h6 {
 .testimonials {
 	background-image: url("img/testiback.png");
 	padding-bottom: 35px;
-	padding-top: 75px;
-	text-align: center;
+
 	color: #cecece;
 }
 
-.testimonials h3 {
+.testi_quote {
 	font-style: italic;
 	font-size: 15px;
 	font-family: Times;
 }
 
-.testimonials sup {
-	font-size: 35px;
+.testi_quote:before {
+	content: open-quote;
+	font-size: 40px;
 }
 
-.testimonials sub {
-	font-size: 35px;
+.testi_quote:after{
+	content: close-quote;
+	font-size: 40px;
 }
 
-.testimonials p {
+.testi_text {
 	font-style: italic;
 	font-size: 12px;
 	margin-top: -10px;
 }
 
-.testimonials h4 {
+.testi_header {
 	font-size: 14px;
 	margin-top: 20px;
 	padding-top: 50px;
 }
 
-.testimonials li {
-	display: inline-block;
-}
 
-.testimonials li:nth-child(2) {
-	margin-left: 5px;
-	margin-right: 5px;
-}
-
-.testimonials .circle {
+.testi_circle {
 	width: 10px;
 	height: 10px;
 	border-radius: 10px;
 	background-color: #cecece;
 	border: 0px;
-}
-
-.testimonials ul {
-	margin-left: -47px;
-	margin-top: 50px;
+	display: inline-block;
 }
 
 /* --------------------------- maps -------------------------- */
@@ -782,33 +759,36 @@ h6 {
 	margin-left: -100px;
 }
 
-.maps img {
+.maps_tag {
 	position: absolute;
-	margin: 210px 50px 0px;
+	margin-top: 200px;
 }
 
 /* --------------------------- footer -------------------------- */
 
-footer {
+.footer {
 	text-align: left;
 	color: #cecece;
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 450px;
 	background-image: url("img/fooback.png");
 }
 
-footer img {
+.footer_logo {
 	margin-bottom: 30px;
+	margin-left: -370px;
 }
 
-#foofirst {
+.footer_contact_block {
 	width: 340px;
 	padding-right: 30px;
 	padding-top: 0px; 
 	vertical-align: top;
+	float: left;
+	margin-top: 65px;
 }
 
-#foofirst p {
+.footer_text {
 	font-size: 12px;
 	font-family: times;
 	color: #949494;
@@ -816,19 +796,22 @@ footer img {
 	margin-bottom: 40px;
 }
 
-#foofirst h3 {
+.footer_title {
 	font-size: 15px;
 	font-weight: normal;
 	margin-bottom: 30px;
 }
 
-#foosecond {
+.footer_form_block {
+	float: right;
 	vertical-align: top;
 	padding-top: 15px;
+	width: 830px;
+	margin-top: 65px;
 }
 
-input {
-	width: 353px;
+.footer_input {
+	width: 345px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
@@ -838,18 +821,14 @@ input {
 	font-family: times;
 	color: #949494;
 	margin-bottom: 20px;
-}
-
-.in1 {
 	float: left;
+	margin-right: 40px;
 }
 
-.in2 {
-	float: right;
-}
 
-textarea {
-	width: 790px;
+
+.footer_textarea {
+	width: 750px;
 	padding-top: 20px;
 	padding-bottom: 30px;
 	padding-left: 20px;
@@ -862,12 +841,12 @@ textarea {
 	resize: none;
 }
 
-.subbtn {
+.footer_submit {
 	width: 150px;
 	background-color: #3e3d3d;
 	color: #949494;
+	border: 1px solid #3e3d3d;
 	font-family: myriad pro;
-	padding: 0px;
 	text-align: center;
 	height: 38px;
 	font-style: normal;
