@@ -86,7 +86,6 @@ header {
 	background-image: url("img/slider_back.png");
 	padding-top: 130px;
 	padding-bottom: 130px;
-	color: white;
 }
 
 .slider_h {
@@ -241,7 +240,7 @@ header {
 /* --------------------------------------------------------------------------------------------- */
 
 .history {
-	background-color: #e3e3e3;
+	background-color: #ededed;
 	padding-bottom: 20px;
 	font-size: 14px;
 }
@@ -270,23 +269,15 @@ header {
 	margin: 0px auto 0px;
 }
 
-.dots {
+.history_dots {
 	position: absolute;
 	margin: -1020px 553px 0px;
 }
 
-.dots li {
+.historydots li {
 	list-style-type: none;
 	margin-top: 20px;
 }
-
-.blackdot {
-	width: 15px;
-	height: 15px;
-	border-radius: 15px;
-	background-color: #3e3d3d; 
-}
-
 
 .dots li:nth-child(3) {
 	margin-top: 192px;
@@ -317,8 +308,7 @@ header {
 	margin-left: -10px;
 }
 
-
-/* ------------- history comments left ----------------- */
+/* ------------- history comments ----------------- */
 
 
 .history_2015 {
@@ -372,7 +362,6 @@ header {
 	float: right;
 	padding-left: 100px;
 	margin-top: 68px;
-
 }
 
 .history_block_black {
@@ -380,6 +369,51 @@ header {
 	background-color: #3e3d3d;
 	height: 298px;
 	margin-top: 30px;
+}
+
+.history_block_left:after {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background-color: #3e3d3d;
+	position: absolute;
+	margin-left: 546px;
+	margin-top: -175px;
+}
+
+.history_block_left:before {
+	content: url("img/ugol_left.png");
+	position: absolute;
+	margin-left: 521px;
+	margin-top: -9px;
+}
+
+.history_block_right:after {
+	content: url("img/ugol_right.png");
+	position: absolute;
+	margin-left: -112px;
+	margin-top: -170px;
+}
+
+.history_block_right:before {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background-color: #3e3d3d;
+	position: absolute;
+	margin-left: -139px;
+	margin-top: -10px;
+}
+
+.history_block_black:after {
+	content: url("img/ugol_right_black.png");
+	position: absolute;
+	margin-left: -112px;
+	margin-top: -245px;
 }
 
 /* --------------------------------------------------------------------------------------------- */
